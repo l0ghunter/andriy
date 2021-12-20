@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-color:black ;
+    font-family: Arial, Helvetica, sans-serif\;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    margin-bottom: 15px;
+}
+h1{
+    margin: 0;
+}
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+    padding:10px;
+    text-align: center;
+    border-left: 1px solid #F2E205;
+    border-right: 1px solid #F2E205;
+    border-bottom: 1px solid #F2E205;
+    background-color: #F2E205;
+}
+.wrapper:nth-child(2n){
+    background-color: #BFBBBA;
+}
+.header{
+    background: url(https://4frag.ru/image/data/Obzori5/TOP2018/top2018-4_5.jpg);
+    background-size: contain;
+    width: 720px;
+    padding:0px;
+    padding-bottom: 160px;
+}
+.header h1{
+    color: #F2E205;
+    margin-top: 135px;
+}
+.header-text{
+    background-color: black;
+}
+.header .slogan{
+    color: #BFBBBA;
+    font-weight: bold;
+}
+.top-menu{
+    margin: 0;
+    list-style:none;
+    padding: 0;
+}
+.top-menu-item{
+    padding: 15px 25px;
+    display: inline-block;
+    background-color: #BFBBBA;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.top-menu-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-content{
+    text-align: left;
+}
+
+.advantages-item{
+    display: inline-block;
+    width: 125px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.advantages-item:last-child{
+    margin-right: 0;
+}
+.advantages-item img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.advantages-item img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.review-item{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.review-item img{
+    display: inline-block;
+}
+.review-item-info{
+    display: inline-block;
+    text-align: left;
+    width: 550px;
+}
+.review-item-username{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column{
+    width: 200px;
+    display: inline-block;
+    margin-top: 0;
+}
+.footer-item{
+    text-align: left;
+}
+.footer-item-content img{
+    display: inline-block;
+    width: 20px;
+}
+.footer-item-content div{
+    display: inline-block;
+}
+.footer-item-content a{
+    color:black;
+}
+h5{
+    margin: 0;
+    padding:0;
+}
+
+table { 
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+   }
+th { 
+    padding: 5px;
+    border: 1px solid black;
+}
+td { 
+    padding: 5px;
+    border: 1px solid black;
+}
+.footer-item{
+    display: inline-block;
+    width: 180px;
+    margin-right: 50px;
+}
+.footer-item:last-child{
+    margin-right: 0px;
+}
